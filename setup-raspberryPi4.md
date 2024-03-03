@@ -61,10 +61,10 @@ Select the VNC display and select the max display. Finish > Reboot
 
 # Connect VNC viewer
 
-- Open VNC viewer
+- [Download](https://www.realvnc.com/en/connect/download/viewer/) Open VNC viewer
 - Add the IP address of your Raspberry Pi and click connect
 - Enter username and password of Raspberry Pi
-- Click continue
+- Click Continue
 - It should open the Window of Raspberry Pi
 
-# Awesome. That's it. Now start experimenting your new toy!
+# Awesome. That's it. Now start experimenting with your new toy!
