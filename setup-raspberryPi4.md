@@ -67,4 +67,7 @@ Select the VNC display and select the max display. Finish > Reboot
 - Click Continue
 - It should open the Window of Raspberry Pi
 
+# Update Raspberry Pi before start using
+- After the VNC viewer connects to RaspberryPi the top right first icon ( install updates) . Get the latest updates of Raspberry Pi. It might take few minutes to download and install all updates
+
 # Awesome. That's it. Now start experimenting with your new toy!
