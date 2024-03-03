@@ -58,3 +58,13 @@ myusername@raspberrypi:~ $
 ```
 Again run sudo raspi-config and this time select Display settings.
 Select the VNC display and select the max display. Finish > Reboot
+
+# Connect VNC viewer
+
+- Open VNC viewer
+- Add the IP address of your Raspberry Pi and click connect
+- Enter username and password of Raspberry Pi
+- Click continue
+- It should open the Window of Raspberry Pi
+
+# Awesome. That's it. Now start experimenting your new toy!
