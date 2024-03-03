@@ -4,6 +4,7 @@ from AWSIoTPythonSDK.MQTTLib import AWSIoTMQTTClient
 
 def task():
 	print('Hello world')
+	return "{'message': 'Message from Raspberry Pi'}"
 
 myMQTTClient = AWSIoTMQTTClient("MyClientID") #random key, if another connection using the same key is opened the previous one is auto closed by AWS IOT
 myMQTTClient.configureEndpoint("###########.iot.us-east-1.amazonaws.com", 8883)
@@ -18,7 +19,7 @@ print ('Initiating Realtime Data Transfer From Raspberry Pi...')
 myMQTTClient.connect()
 
 myMQTTClient.publish(
-	topic = ''
+	topic = '',
 	QoS=1,
-	payload = "{'message': 'Message from Raspberry Pi'}"
+	payload = task
 )
