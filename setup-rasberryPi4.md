@@ -1,6 +1,6 @@
 
 # Setup steps for RespberryPi4
-Steps should be the same for other RaspberryPi versions too.
+The steps should be the same for other Raspberry Pi versions too.
 
 - Install imager from [here](https://www.raspberrypi.com/software/) in your laptop
 - Make sure you have attached a MicroSD card (which you will be using in RaspberryPi device later)
@@ -16,11 +16,12 @@ Steps should be the same for other RaspberryPi versions too.
 
 - After completing the write it will ask to take the SD card out
 - Now put the SD card into the RaspberyPi SD card slot and simply PowerUp the device
-- At this time only the power cord is added to the RaspberryPi device. No other cable is.
+- At this time only the power cord is added to the Raspberry Pi device. No other cable is.
 - It usually takes ~10 mins to boot the device and connect to your wifi automatically. Don't power off the device.
-- To check if it has connected to the WiFi, check your mobile's Wifi  available network. You will find the RasberryPi there. Take the IP address from there. Getting the IP is important
+- To check if it has connected to the WiFi, check your mobile's Wifi  available network. You will find the Rasberry Pi there. Take the IP address from there. Getting the IP is important
 
-## Connect RasberryPi using Putty and Enable VNC settings
+# Connect RasberryPi using Putty and Enable VNC settings
+
 - Download PuTTY from [here](https://www.putty.org/)
 - Add the IP address of the RasberryPi as hostname and port 22 ( you had enabled SSH already )
 - click connect to PuTTY
@@ -55,3 +56,5 @@ Generating RSA key...
 Done
 myusername@raspberrypi:~ $
 ```
+Again run sudo raspi-config and this time select Display settings.
+Select the VNC display and select the max display. Finish > Reboot
