@@ -65,7 +65,7 @@ myusername@raspberrypi:~ $
 ## Enable Static IP for RaspberryPi [click here](https://github.com/e2eSolutionArchitect/RaspberryPi/blob/main/setup-raspberryPi4-staticIP.md)
 
 # Enable VNC 
-Run sudo raspi-config > select Interface setting > Enable VNC > Enable Yes > Finish
+Run sudo raspi-config > select Interface Options > select 'I2 VNC' > Enable VNC > Enable Yes > Finish
 
 ```
 myusername@raspberrypi:~ $ sudo raspi-config
