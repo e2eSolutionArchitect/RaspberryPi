@@ -20,7 +20,7 @@ The steps should be the same for other Raspberry Pi versions too.
 - Now put the SD card into the RaspberyPi SD card slot and simply PowerUp the device
 - At this time only the power cord is added to the Raspberry Pi device. No other cable is.
 - It usually takes ~10 mins to boot the device and connect to your wifi automatically. Don't power off the device.
-- To check if it has connected to the WiFi, check your mobile's Wifi  available network. You will find the Rasberry Pi there. Take the IP address from there. Getting the IP is important
+- To check if it has connected to the WiFi, check your mobile's Wifi available network. You will find the Rasberry Pi there. Take the IP address from there. Getting the IP is important
 
 # Connect RasberryPi using Putty and Enable VNC settings
 
@@ -46,6 +46,7 @@ Last login: Tue Dec  5 00:05:38 2023
 myusername@raspberrypi:~ $
 
 ```
+## Enable Static IP for RaspberryPi [click here](https://github.com/e2eSolutionArchitect/RaspberryPi/blob/main/setup-raspberryPi4-staticIP.md)
 
 # Enable VNC 
 Run sudo raspi-config > select Interface setting > Enable VNC > Enable Yes > Finish
