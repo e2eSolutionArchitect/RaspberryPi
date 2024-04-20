@@ -2,6 +2,9 @@
 # Setup steps for RespberryPi4
 The steps should be the same for other Raspberry Pi versions too.
 
+
+<img width="534" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/e08926a7-af5d-48c9-ab8e-a22727054085">
+
 - Install imager from [here](https://www.raspberrypi.com/software/) in your laptop
 - Make sure you have attached a MicroSD card (which you will be using in RaspberryPi device later)
 - After installing the imager
