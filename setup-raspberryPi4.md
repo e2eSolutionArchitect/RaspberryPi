@@ -20,6 +20,9 @@ The steps should be the same for other Raspberry Pi versions too.
 
 Select 'Yes'
 
+<img width="536" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/1a4a17fd-56e5-4a82-9bb9-de18f6605872">
+
+Select 'Yes'
 
 - Click Next to start writing in your attached SD card.
 
