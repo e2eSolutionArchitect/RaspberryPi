@@ -8,7 +8,7 @@ The steps should be the same for other Raspberry Pi versions too.
 - - Select Device as RaspberryPi4
   - Select OS as the recommended option
   - Select the storage ( the option will show the SD card you attached to your laptop)
-- Now click 'Edit settings'
+- Now click ***'Edit settings'***
 - - Set username, and password. Wifi username and password. enable SSH, set country, timezone
 - Save all settings
 - Click Next to start writing in your attached SD card.
