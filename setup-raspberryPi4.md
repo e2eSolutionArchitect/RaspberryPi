@@ -15,15 +15,19 @@ The steps should be the same for other Raspberry Pi versions too.
 <img width="531" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/6d729349-902d-4297-b2d2-e7e841c2d14d">
 
 - Save all settings
+
+<img width="679" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/e3fb2689-697e-425d-bb39-be9ee562b75d">
+
+Select 'Yes'
+
+
 - Click Next to start writing in your attached SD card.
 
 ![image](https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/b8d11502-e4ad-463e-b6c7-5d70b9e72913)
 
 <img width="678" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/7213da9a-a2b1-43bf-8ac8-87fc50b1df35">
 
-<img width="679" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/e3fb2689-697e-425d-bb39-be9ee562b75d">
 
-Select 'Yes'
 
 - After completing the write it will ask to take the SD card out
 - Now put the SD card into the RaspberyPi SD card slot and simply PowerUp the device
