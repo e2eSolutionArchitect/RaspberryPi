@@ -13,8 +13,10 @@ The steps should be the same for other Raspberry Pi versions too.
 <img width="534" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/e08926a7-af5d-48c9-ab8e-a22727054085">
 
 <img width="531" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/6d729349-902d-4297-b2d2-e7e841c2d14d">
+
 - Save all settings
 - Click Next to start writing in your attached SD card.
+
 ![image](https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/b8d11502-e4ad-463e-b6c7-5d70b9e72913)
 
 <img width="678" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/7213da9a-a2b1-43bf-8ac8-87fc50b1df35">
