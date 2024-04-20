@@ -21,6 +21,10 @@ The steps should be the same for other Raspberry Pi versions too.
 
 <img width="678" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/7213da9a-a2b1-43bf-8ac8-87fc50b1df35">
 
+<img width="679" alt="image" src="https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/e3fb2689-697e-425d-bb39-be9ee562b75d">
+
+Select 'Yes'
+
 - After completing the write it will ask to take the SD card out
 - Now put the SD card into the RaspberyPi SD card slot and simply PowerUp the device
 - At this time only the power cord is added to the Raspberry Pi device. No other cable is.
