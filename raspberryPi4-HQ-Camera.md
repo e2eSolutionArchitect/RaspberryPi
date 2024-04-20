@@ -1,0 +1,4 @@
+
+```
+vcgencmd get_camera
+```
