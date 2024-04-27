@@ -1,5 +1,5 @@
 import winsound
-
+import time
 
 def create_dictionary():
     # Create a dictionary object
@@ -81,6 +81,8 @@ def beep(encoded_string):
         if '-' in bit:
             # Beep sound
             winsound.Beep(1000, 1000) # Frequency: 1000 Hz, Duration: 500 milliseconds
+        if ' ' in bit:
+            time.sleep(0.9)
 
     return bit
 
