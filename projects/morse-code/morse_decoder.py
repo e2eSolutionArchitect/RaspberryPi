@@ -1,3 +1,6 @@
+import winsound
+
+
 def create_dictionary():
     # Create a dictionary object
     dictionary_obj = {
@@ -68,6 +71,19 @@ def create_rev_dictionary():
     }
     return rev_dictionary_obj
 
+def beep(encoded_string):
+    bits = encoded_string.split()
+    print(bits)
+    for bit in bits:
+        if '.' in bit:
+            # Beep sound
+            winsound.Beep(1000, 500) 
+        if '-' in bit:
+            # Beep sound
+            winsound.Beep(1000, 1000) # Frequency: 1000 Hz, Duration: 500 milliseconds
+
+    return bit
+
 def search(dictionary_obj, search_string):
     result = ""
     for letter in search_string:
@@ -88,13 +104,14 @@ def rev_search(rev_dictionary_obj, rev_search_string):
             result += "Not Found" + " "
     return result.strip()
 
+
 def main():
     # Create a dictionary
     dictionary_obj = create_dictionary()
     rev_dictionary_obj = create_rev_dictionary()
 
     # Read input from the user
-    search_string = "Hi there, My name is Som"
+    search_string = "Hello"
     #rev_search_string = ". .-.. .-.. --- / .... .. / - .... . .-. ."
 
     # Search for values based on the input string
@@ -102,6 +119,7 @@ def main():
     print("Encoded:", result)
     rev_result = rev_search(rev_dictionary_obj, result)
     print("Decoded:", rev_result)
+    beep(result)
 
 if __name__ == "__main__":
     main()
