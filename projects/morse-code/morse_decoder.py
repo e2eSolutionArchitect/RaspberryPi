@@ -95,13 +95,13 @@ def main():
 
     # Read input from the user
     search_string = "Hi there, My name is Som"
-    rev_search_string = ". .-.. .-.. --- / .... .. / - .... . .-. ."
+    #rev_search_string = ". .-.. .-.. --- / .... .. / - .... . .-. ."
 
     # Search for values based on the input string
     result = search(dictionary_obj, search_string)
-    print("Result:", result)
+    print("Encoded:", result)
     rev_result = rev_search(rev_dictionary_obj, result)
-    print("Rev Result:", rev_result)
+    print("Decoded:", rev_result)
 
 if __name__ == "__main__":
     main()
