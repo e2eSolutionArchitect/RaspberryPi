@@ -72,8 +72,8 @@ def create_rev_dictionary():
     return rev_dictionary_obj
 
 def beep(encoded_string):
-    bits = encoded_string.split()
-    print(bits)
+    bits = encoded_string
+    print(len(bits))
     for bit in bits:
         if '.' in bit:
             # Beep sound
