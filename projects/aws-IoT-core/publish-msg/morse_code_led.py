@@ -77,23 +77,17 @@ def beep(encoded_string):
     bits = encoded_string
     print(len(bits))
     for bit in bits:
-        print(bit)
         if '.' in bit:
-            # Short blink
             GPIO.output(7,True)
             time.sleep(1)
             GPIO.output(7,False)
-	    time.sleep(1)
+            time.sleep(1)
         if '-' in bit:
-            # Long blink
             GPIO.output(7,True)
             time.sleep(2)
             GPIO.output(7,False)
-	    time.sleep(1)
-        if ' ' in bit:
-            # No blink
-            GPIO.output(7,False)
-	    time.sleep(1)
+            time.sleep(1)
+
     GPIO.cleanup()
     return bit
 
