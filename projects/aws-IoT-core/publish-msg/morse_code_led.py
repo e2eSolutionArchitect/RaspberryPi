@@ -87,6 +87,9 @@ def beep(encoded_string):
             time.sleep(2)
             GPIO.output(7,False)
             time.sleep(1)
+        if ' ' in bit:
+            GPIO.output(7,False)
+            time.sleep(1)
 
     GPIO.cleanup()
     return bit
