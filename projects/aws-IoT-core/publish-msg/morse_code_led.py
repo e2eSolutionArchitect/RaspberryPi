@@ -1,9 +1,6 @@
 import RPi.GPIO as GPIO
 import time
 
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(7,GPIO.OUT)
-
 def create_dictionary():
     # Create a dictionary object
     dictionary_obj = {
@@ -75,6 +72,8 @@ def create_rev_dictionary():
     return rev_dictionary_obj
 
 def beep(encoded_string):
+    GPIO.setmode(GPIO.BOARD)
+    GPIO.setup(7,GPIO.OUT)
     bits = encoded_string
     print(len(bits))
     for bit in bits:
