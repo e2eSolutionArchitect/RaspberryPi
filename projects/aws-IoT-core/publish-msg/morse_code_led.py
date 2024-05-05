@@ -79,11 +79,14 @@ def beep(encoded_string):
             # Beep sound
             GPIO.output(7,True)
             time.sleep(1)
+            GPIO.output(7,False)
         if '-' in bit:
             # Beep sound
             GPIO.output(7,True)
             time.sleep(2)
+            GPIO.output(7,False)
         if ' ' in bit:
+            GPIO.output(7,False)
             time.sleep(0.9)
 
     return bit
