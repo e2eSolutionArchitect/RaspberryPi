@@ -1,6 +1,11 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: Apache-2.0.
 
+# The command that invokes pubsub.py is below. It adds endpoint, cert, client id, topic etc
+# python3 aws-iot-device-sdk-python-v2/samples/pubsub.py --endpoint a2fyyxjefjogid-ats.iot.us-east-1.amazonaws.com --ca_file root-CA.crt --cert RaspberryPi4-0505.cert.pem --key RaspberryPi4-0505.private.key --client_id basicPubSub --topic sdk/test/python --count 0
+
+
+
 from awscrt import mqtt, http
 from awsiot import mqtt_connection_builder
 import sys
