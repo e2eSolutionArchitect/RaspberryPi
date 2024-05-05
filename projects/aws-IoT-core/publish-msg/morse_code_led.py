@@ -89,7 +89,7 @@ def beep(encoded_string):
             # No blink
             GPIO.output(7,False)
             time.sleep(0.9)
-
+    GPIO.cleanup()
     return bit
 
 def search(dictionary_obj, search_string):
