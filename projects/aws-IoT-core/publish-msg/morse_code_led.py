@@ -1,4 +1,4 @@
-import winsound
+import RPi.GPIO as GPIO
 import time
 
 def create_dictionary():
@@ -77,10 +77,12 @@ def beep(encoded_string):
     for bit in bits:
         if '.' in bit:
             # Beep sound
-            winsound.Beep(1000, 500) 
+            GPIO.output(7,True)
+            time.sleep(1)
         if '-' in bit:
             # Beep sound
-            winsound.Beep(1000, 1000) # Frequency: 1000 Hz, Duration: 500 milliseconds
+            GPIO.output(7,True)
+            time.sleep(2)
         if ' ' in bit:
             time.sleep(0.9)
 
