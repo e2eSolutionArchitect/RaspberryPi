@@ -11,6 +11,11 @@ try:
   while True:
     time.sleep(0.01)
     button_state = GPIO.input(BUTTON_PIN)
+    if GPIO.input(BUTTON_PIN) == GPIO.LOW:
+      print("Button is pressed")
+    else:
+      print("Button is NOT pressed")  
+    
     if button_state ! = previous_button_state:
       previous_button_state = button_state
 except KeyboardInterrupt:
