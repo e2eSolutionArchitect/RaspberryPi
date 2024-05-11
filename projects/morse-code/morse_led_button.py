@@ -3,7 +3,8 @@ import time
 import Button
 import Led
 
-led = LED(17)
+button = Button(17)
+led = LED(7)
 
 def create_dictionary():
     # Create a dictionary object
@@ -133,9 +134,11 @@ def main():
 
     while True:
         button.wait_for_press()
+        #button.when_pressed = led.on
+        #button.when_released = led.off
         print('Button pressed')
         led.toggle()
-        time.sleep(0.5)        
+        #time.sleep(0.5)        
 
     # Search for values based on the input string
     result = search(dictionary_obj, search_string)
