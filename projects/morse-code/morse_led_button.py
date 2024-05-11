@@ -1,5 +1,9 @@
 import RPi.GPIO as GPIO
 import time
+import Button
+import Led
+
+led = LED(17)
 
 def create_dictionary():
     # Create a dictionary object
@@ -126,6 +130,12 @@ def main():
     # Read input from the user
     search_string = "Hello"
     #rev_search_string = ". .-.. .-.. --- / .... .. / - .... . .-. ."
+
+    while True:
+        button.wait_for_press()
+        print('Button pressed')
+        led.toggle()
+        time.sleep(0.5)        
 
     # Search for values based on the input string
     result = search(dictionary_obj, search_string)
