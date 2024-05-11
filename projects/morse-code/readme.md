@@ -51,3 +51,6 @@ number_dict= {
 }
 
 ```
+
+![image](https://github.com/e2eSolutionArchitect/RaspberryPi/assets/62712515/33f8415c-144b-4c2d-a494-c4a75a114a23)
+
