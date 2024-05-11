@@ -18,6 +18,9 @@ try:
     
     if button_state ! = previous_button_state:
       previous_button_state = button_state
+      if button_state == GPIO.HIGH:
+        print("Button has been released")  
+        
 except KeyboardInterrupt:
   GPIO.cleanup()
       
