@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=ruVt46M71Kc
+
 import RPi.GPIO as GPIO
 import time
 
