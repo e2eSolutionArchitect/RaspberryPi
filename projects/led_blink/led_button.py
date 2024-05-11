@@ -1,8 +1,21 @@
 import RPi.GPIO as GPIO
 import time
 
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(7,GPIO.OUT)
+BUTTON_PIN = 16
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(BUTTON_PIN,GPIO.IN,pull_up_down=GPIO.PUD_UP)
+
+previous_button_state = GPIO.INPUT(BUTTON_PIN)
+
+try:
+  while True:
+    time.sleep(0.01)
+    button_state = GPIO.input(BUTTON_PIN)
+    if button_state ! = previous_button_state:
+      previous_button_state = button_state
+except KeyboardInterrupt:
+  GPIO.cleanup()
+      
 
 for i in range(50):
   GPIO.output(7,True)
